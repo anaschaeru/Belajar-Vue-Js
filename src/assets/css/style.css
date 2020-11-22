@@ -1,0 +1,51 @@
+#app {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+}
+
+.btn-success {
+    background-color: #58A8F9;
+    border: 0;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #015288;
+}
+
+.btn-success:focus, .btn-success.focus {
+    color: #fff;
+    background-color: #015288;
+    border-color: #015288;
+    box-shadow: 0 0 0 0.2rem #58A8F9;
+}
+
+.badge-success {
+    background-color: #58A8F9;
+}
+
+.card-product {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0px;
+}
+.breadcrumb-item a:link{
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+}
